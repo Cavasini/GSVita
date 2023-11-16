@@ -70,26 +70,26 @@ export const Cards = () => {
 
         <div class="requirements">
           <div class="card">
-            <h3>Controle em Tempo Real</h3>
+            <h3>Prevenção de Desperdícios</h3>
             <p>
-              Gerenciamento abrangente, visão instantânea: estoque hospitalar em
-              tempo real para decisões rápidas e eficientes.
+              Projeto inovador que evita desperdícios, garantindo que nenhum
+              medicamento expire e recursos sejam preservados.
             </p>
           </div>
 
           <div class="card">
-            <h3>Rastreamento Inteligente</h3>
+            <h3>Eficiência Operacional Aumentada</h3>
             <p>
-              Código de barras exclusivo: monitoramento preciso, entrada/saída
-              fácil para garantir controle eficaz do estoque.
+              Sistema inteligente agiliza reposição, assegurando acesso rápido a
+              materiais essenciais para profissionais de saúde.
             </p>
           </div>
 
           <div class="card">
-            <h3>Alertas de Validade</h3>
+            <h3>Controle Total de Estoque</h3>
             <p>
-              Segurança automatizada: datas de validade monitoradas, alertas
-              proativos para evitar expirações, garantindo qualidade constante.
+              Redução de erros, sistema moderno proporciona controle rigoroso,
+              melhorando precisão e confiança nos registros.
             </p>
           </div>
         </div>
