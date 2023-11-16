@@ -3,7 +3,7 @@ import styled from "styled-components";
 const HeaderMain = styled.div`
   display: flex;
   position: absolute;
-  width: 100%;
+  width: 99.8%;
   flex-direction: row;
   background: transparent;
   align-items: center;

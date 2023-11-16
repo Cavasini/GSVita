@@ -22,16 +22,16 @@ const data = [
 export const Cards = () => {
   return (
     <div className="cards-body">
-      <section class="main-section">
-        <div class="project-description">
-          <section class="project-info">
-            <div class="info-description">
+      <section className="main-section">
+        <div className="project-description">
+          <section className="project-info">
+            <div className="info-description">
               <h2>Título da Seção</h2>
               <p>Breve descrição do projeto.</p>
             </div>
 
-            <div class="info-details">
-              <div class="detail">
+            <div className="info-details">
+              <div className="detail">
                 <p>Centralização Eficiente no Controle de Estoque</p>
                 <span>
                   Sistema inovador monitora, rastreia e atualiza estoques
@@ -39,7 +39,7 @@ export const Cards = () => {
                   desperdícios.
                 </span>
               </div>
-              <div class="detail">
+              <div className="detail">
                 <p>Avanço Sustentável na Gestão Hospitalar</p>
                 <span>
                   Implantação do sistema reduz desperdícios, promove controle
@@ -47,7 +47,7 @@ export const Cards = () => {
                   segurança do paciente.
                 </span>
               </div>
-              <div class="detail">
+              <div className="detail">
                 <p>Simplificação Inteligente no Ambiente Hospitalar</p>
                 <span>
                   Rastreamento por código de barras, atualização automática e
@@ -58,18 +58,17 @@ export const Cards = () => {
             </div>
           </section>
           <section>
-            <div class="card bottom-card">
-              <h3>Controle em Tempo Real</h3>
+            <div className="card bottom-card">
+              <h3>Segurança Avançada Integrada</h3>
               <p>
-                Gerenciamento abrangente, visão instantânea: estoque hospitalar
-                em tempo real para decisões rápidas e eficientes.
+              Proteja seus pacientes e equipe. Sistema robusto garante rastreabilidade total, prevenindo roubos e garantindo confiança.
               </p>
             </div>
           </section>
         </div>
 
-        <div class="requirements">
-          <div class="card">
+        <div className="requirements">
+          <div className="card">
             <h3>Prevenção de Desperdícios</h3>
             <p>
               Projeto inovador que evita desperdícios, garantindo que nenhum
@@ -77,7 +76,7 @@ export const Cards = () => {
             </p>
           </div>
 
-          <div class="card">
+          <div className="card">
             <h3>Eficiência Operacional Aumentada</h3>
             <p>
               Sistema inteligente agiliza reposição, assegurando acesso rápido a
@@ -85,7 +84,7 @@ export const Cards = () => {
             </p>
           </div>
 
-          <div class="card">
+          <div className="card">
             <h3>Controle Total de Estoque</h3>
             <p>
               Redução de erros, sistema moderno proporciona controle rigoroso,

@@ -1,4 +1,5 @@
-import Menu from "../components/Home/menu"
+import Menu from "../components/Home/Menu"
+
 
 function Home(){
     return(
