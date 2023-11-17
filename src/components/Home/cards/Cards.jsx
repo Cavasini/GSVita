@@ -7,8 +7,8 @@ export const Cards = () => {
         <div className="project-description">
           <section className="project-info">
             <div className="info-description">
-              <h2>Título da Seção</h2>
-              <p>Breve descrição do projeto.</p>
+              <h2>Sobre o VITA</h2>
+              <p>Revolucionando hospitais</p>
             </div>
             <div className="info-details">
               {detailsData.map((detail, index)=>(
@@ -20,10 +20,8 @@ export const Cards = () => {
             </div>
           </section>
           <section className="bottom-card">
-            <div className="card name">
-              <div>
-              <h3>VITA</h3>
-              </div>
+            <div className="name">
+              <img src="/VitaLogoBlue.svg" alt="" />
             </div>
             <div className="card">
               <h3>Segurança Avançada Integrada</h3>

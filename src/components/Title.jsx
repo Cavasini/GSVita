@@ -3,14 +3,13 @@ import styled from "styled-components";
 const TitleX = styled.div`
 display: flex;
 justify-content: center;
-  width: 100%;
   margin: 4% 0;
   @media (max-width: 768px){
     margin: 10% 0%;
   }
 `;
 const TitleSectionF = styled.div`
-  width: 50%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;

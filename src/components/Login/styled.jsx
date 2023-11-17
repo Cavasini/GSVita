@@ -11,6 +11,10 @@ export const FormMain = styled.div`
     width: 100%;
     max-width: 28rem;
   }
+@media (max-width: 515px) {
+  width: 90%;
+    max-width: 28rem;
+}
 
   form {
     width: 100%;
