@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer>
         <div>
-          <img src="public/vite.svg" alt="" />
+          <img src="/vite.svg" alt="" />
         </div>
         <div>
           <ul>

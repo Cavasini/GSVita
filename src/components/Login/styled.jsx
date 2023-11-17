@@ -62,8 +62,9 @@ export const FormMain = styled.div`
 
     input{
       border: none;
-      background-color: #042c6c;
+      background-color: #3c55cb;
       color: white;
+      cursor: pointer;
     }
   }
 `;

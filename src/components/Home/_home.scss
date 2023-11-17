@@ -2,7 +2,6 @@
 @import "./Vant/features";
 @import "./Footer/footer";
 
-
 .home {
   height: 100%;
   background: #ffffff;
@@ -34,6 +33,21 @@
   .text {
     width: 45%;
     color: white;
+    a {
+      border: 1px solid white;
+      border-radius: 0.3rem;
+      padding: 0.5rem;
+      cursor: pointer;
+      transition: all 0.7s ease;
+
+      &:hover {
+        background-color: white;
+        color: #3c55cb;
+        position: relative;
+        overflow: hidden;
+        transition: all 0.7s ease;
+      }
+    }
   }
   .img {
     width: 55%;
@@ -51,4 +65,3 @@
     line-height: 24px;
   }
 }
-
