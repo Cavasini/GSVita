@@ -6,7 +6,7 @@ justify-content: center;
   width: 100%;
   margin: 4% 0;
   @media (max-width: 768px){
-    margin: 4% 0%;
+    margin: 10% 0%;
   }
 `;
 const TitleSectionF = styled.div`
@@ -33,14 +33,16 @@ const TitleSection_H2 = styled.h3`
   margin-bottom: -1px;
   font-weight: 800;
   @media (max-width: 768px){
-    font-size: 27px
+    width: 70%;
+    font-size: 20px
   }
 
 `;
 const TitleSection_P = styled.p`
   font-size: 15px;
   @media (max-width: 768px){
-    font-size: 14px
+    width: 75%;
+    font-size: 14px;
   }
 `;
 

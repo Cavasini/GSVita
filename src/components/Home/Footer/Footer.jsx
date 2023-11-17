@@ -1,24 +1,20 @@
 import { FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
 
+const icons = [<FaGithub />, <FaInstagram />, <FaTwitter />];
+
 function Footer() {
   return (
     <footer>
-        <div>
-          <img src="/vite.svg" alt="" />
-        </div>
-        <div>
-          <ul>
-            <li>
-              <FaGithub />
-            </li>
-            <li>
-              <FaInstagram />
-            </li>
-            <li>
-              <FaTwitter />
-            </li>
+      <div>
+        <img src="/vite.svg" alt="" />
+      </div>
+      <div className="icons">
+        {icons.map((icon, index) => (
+          <ul key={index}>
+            <li>{icon}</li>
           </ul>
-        </div>
+        ))}
+      </div>
     </footer>
   );
 }
