@@ -45,6 +45,8 @@
         border-radius: 0.3rem;
         cursor: pointer;
         transition: all 0.7s ease;
+        color: white;
+        text-decoration: none;
 
         &:hover {
           background-color: white;
@@ -109,7 +111,6 @@
     }
     .img{
       width: 55%;
-
     }
     ;
   }

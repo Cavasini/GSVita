@@ -16,7 +16,7 @@ const Menu = () => {
             rastreamento eficiente, atualização automática e benefícios
             impactantes. Transforme agora!
           </p>
-          <a>Saiba mais</a>
+          <a href="/login">Saiba mais</a>
         </div>
         <div className="img">
           <img src={photo01} alt="" />

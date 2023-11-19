@@ -1,0 +1,75 @@
+// Dropdown.scss
+.dropdown {
+    position: relative;
+  
+    .toggle-button {
+      padding: 10px;
+      height: 30px;
+      width: 30px;
+      background-color: C5C5C5;
+      border-radius: 50%;
+      color: #3c55cb;
+      cursor: pointer;
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+
+    }
+  
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 120%;
+      width:14rem;
+      left: 5%;
+      background-color: #f9f9f9;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+      padding: 1rem;
+      border-radius: 0.2rem;
+
+      .account{
+        flex-direction: column;
+        margin: -1rem -0.7rem ;
+        border-bottom: 1px solid gray;
+        p{
+          font-size: 14px;
+        }
+
+      }
+      .logout{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 245px;
+        margin-top: 0.7rem;
+        margin-bottom: -1rem;
+        margin-left: -1rem;  
+        height: 50px;
+        button{
+          width: 70%;
+          height: 55%;
+          border: none;
+          background-color: #3c55cb; 
+          color: white;
+          border-radius: 0.2rem;
+          cursor: pointer;
+
+          &:hover{
+            background-color: #354ab1;
+          }
+        } 
+      }
+
+      }
+    }
+  
+    .open {
+      .dropdown-content {
+        display: block;
+      }
+    }
+  
+  

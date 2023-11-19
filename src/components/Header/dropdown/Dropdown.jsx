@@ -1,24 +1,36 @@
 import React, { useState } from "react";
 
 const Dropdown = () => {
+  const getUser = sessionStorage.getItem("userData");
+  const getEmail = sessionStorage.getItem("emailData");
+
   const [isOpen, setIsOpen] = useState(false);
-  
-  const userSession = sessionStorage.getItem("userData")
-  const emailSession = sessionStorage.getItem("emailData")
-  
-  
+
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
 
-  return (
-    <div className="dropdown">
-      <button onClick={toggleDropdown}>Toggle Dropdown</button>
+  const handleLogout = async () => {
+    sessionStorage.removeItem("userData");
+    sessionStorage.removeItem("senhaData");
+    alert("Saindo da sessão");
+    window.location = '/';
+  };
 
+  return (
+    <div className={`dropdown ${isOpen ? "open" : ""}`}>
+      <button className="toggle-button" onClick={toggleDropdown}>
+        <div>{(getUser[0]).toUpperCase()}</div>
+      </button>
       {isOpen && (
         <div className="dropdown-content">
-          <p>{emailSession}</p>
-          <p>Get out</p>
+          <div className="account">
+            <p className="name">{getUser}</p>
+            <p className="email">{getEmail}</p>
+          </div>
+          <div className="logout">
+            <button onClick={handleLogout}>Logout</button>
+          </div>
         </div>
       )}
     </div>
