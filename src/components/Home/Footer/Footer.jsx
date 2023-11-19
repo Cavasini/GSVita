@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer>
       <div>
-        <img src="/vite.svg" alt="" />
+        <img src="/VitaLogoWhite.svg" alt="" />
       </div>
       <div className="icons">
         {icons.map((icon, index) => (

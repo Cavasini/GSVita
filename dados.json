@@ -1,10 +1,22 @@
 {
     "clients": [
-    {
+      {
         "id": 1,
-        "nome": "Cavasini",
-        "email": "cavasini@gmail.com",
-        "senha": "12345"
-    }
-]
-}
+        "nome": "welli_city",
+        "email": "profwellington.tenorio@fiap.com.br",
+        "senha": "wellingtonfiap"
+      },
+      {
+        "id": 2,
+        "nome": "gio_rib",
+        "email": "profgiovanni.ribeiro@fiap.com.br",
+        "senha": "giovannifiap"
+      },
+      {
+        "id":3,
+        "nome": "cavasini",
+        "email":"cavasini.dev@gmail.com",
+        "senha": "cavasinifiap"
+      }
+    ]
+  }

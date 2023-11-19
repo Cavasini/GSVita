@@ -30,7 +30,7 @@ const Menu = () => {
       />
       <Cards />
       <Band />
-      <Title caption="Estoque Inteligente para Eficiência Operacional" />
+      <Title title='' caption="Estoque Inteligente para Eficiência Operacional" text=''/>
       <Features />
       <Footer />
     </>

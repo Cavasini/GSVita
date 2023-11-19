@@ -1,4 +1,10 @@
+@import "./dropdown/_dropdown.scss";
+
 header{
+  border: 1px solid red;
+  *{
+    border: 1px solid red;
+  }
     display: flex;
     position: absolute;
     width: 99.8%;
@@ -13,9 +19,7 @@ header{
         width: 20%;
         padding: 0.5rem;
       }
-      h4 {
-        color: white;
-      }
+
     }
   
 }

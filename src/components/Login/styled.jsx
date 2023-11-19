@@ -15,7 +15,10 @@ export const FormMain = styled.div`
   width: 90%;
     max-width: 28rem;
 }
-
+p{
+      color: red;
+      height: 1rem;
+    }
   form {
     width: 100%;
     padding: 1rem;
@@ -45,6 +48,8 @@ export const FormMain = styled.div`
         line-height: 1.5rem;
       }
     }
+
+
   }
 
   .inputDiv {
