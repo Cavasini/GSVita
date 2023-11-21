@@ -13,6 +13,7 @@ const Dropdown = () => {
   const handleLogout = async () => {
     sessionStorage.removeItem("userData");
     sessionStorage.removeItem("senhaData");
+    alert('saindo da sessão')
     window.location = '/';
   };
 
