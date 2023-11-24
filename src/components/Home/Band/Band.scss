@@ -26,13 +26,17 @@
         padding: 12px 28px;
         border-radius: 0.2rem;
         cursor: pointer;
+        font-size: 15px;
+        font-weight: 600;
       }
     }
     .info_Div {
       transition: opacity 0.15s linear;
+      height: 250px;
       p {
         transition: all 2s ease;
         margin-top: 0.5rem;
+        font-size: 15px;
       }
     }
   }

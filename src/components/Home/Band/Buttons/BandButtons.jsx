@@ -48,7 +48,7 @@ const BandButtons = () => {
             transition: 'all 0.7s ease'
           }}
         >
-          who we are
+          Segurança
         </button>
         <button
           onClick={() => handleBotaoClick(2)}
@@ -58,7 +58,7 @@ const BandButtons = () => {
             transition: 'all 0.7s ease'
           }}
         >
-          Our Vision
+          Eficiência
         </button>
         <button
           onClick={() => handleBotaoClick(3)}
@@ -68,7 +68,7 @@ const BandButtons = () => {
             transition: 'all 0.7s ease'
           }}
         >
-          Our History
+          Modernização
         </button>
       </div>
       <div className="info_Div">
