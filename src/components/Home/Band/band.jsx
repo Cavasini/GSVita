@@ -1,15 +1,18 @@
-import p1 from "/photoMenu.jpg"
-import { BandDiv } from "./style"
+import p1 from "/photoMenu.jpg";
+import { BandDiv } from "./style";
+import BandButtons from "./Buttons/BandButtons";
 
-function Band(){
-
-    return(
-        <BandDiv>
-            <h3>Saúde em Sintonia, Estoque com Precisão. Seu Hospital Mais Eficiente e Seguro, Sempre Pronto para Cuidar!</h3>
-            <div className="container">
-                <img src={p1} alt="" />
-            </div>
-        </BandDiv>
-    )
-} 
-export default Band
+function Band() {
+  return (
+    <BandDiv className="Band">
+      <section className="container">
+        <img src={p1} alt="" />
+      </section>
+      <section className="textDiv">
+        <h3> Transformando a Saúde com Inovação Inteligente e Eficiência Hospitalar</h3>
+        <BandButtons/>
+      </section>
+    </BandDiv>
+  );
+}
+export default Band;

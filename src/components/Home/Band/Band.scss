@@ -1,0 +1,90 @@
+.Band {
+  gap: 2rem;
+  .textDiv {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: space-around;
+    height: 100%;
+    h3 {
+      font-size: 28px;
+      width: 100%;
+      @media (max-width: 1200px) {
+        font-size: 28px;
+        width: 100%;
+        text-align: center;
+      }
+    }
+    .buttonDiv {
+      padding: 10px 6px;
+      background-color: #bcc3e6;
+      border-radius: 0.2rem;
+      display: flex;
+      justify-content: space-around;
+      button {
+        border: none;
+        padding: 12px 28px;
+        border-radius: 0.2rem;
+        cursor: pointer;
+      }
+    }
+    .info_Div {
+      transition: opacity 0.15s linear;
+      p {
+        transition: all 2s ease;
+        margin-top: 0.5rem;
+      }
+    }
+  }
+  .container {
+    width: 20rem;
+    height: 22rem;
+    position: relative;
+    overflow: hidden;
+    margin: 3rem 0;
+    border-radius: 0.8rem;
+    background-color: black;
+    @media (max-width: 1200px) {
+      display: none;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0.8;
+    }
+  }
+}
+@media (max-width: 1200px) {
+.Band {
+  flex-direction: column;
+  .textDiv {
+    width: 100%;
+    align-items: center;
+    .buttonDiv {
+      flex-direction: column;
+      width: 50%;
+      gap: 1rem;
+    }
+    .info_Div{
+        width: 70%;
+        text-align: center;
+        margin-top: 1rem;
+    }
+  }
+}}
+@media (min-width: 1200px) {
+    .Band {
+  flex-direction: row;
+
+    .textDiv {
+        width: 40%;
+        .buttonDiv {
+          flex-direction: row;
+          gap: 0;
+        }
+      }
+}}
