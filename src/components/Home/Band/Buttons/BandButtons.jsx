@@ -2,16 +2,15 @@ import { useState } from "react";
 
 const data = [
     {
-        text01: "O projeto Vita representa um marco significativo na melhoria da segurança dos pacientes nos hospitais. Ao utilizar tecnologia de ponta, o sistema oferece uma visão completa e proativa do estoque hospitalar, permitindo uma gestão mais eficiente e segura. A automação inteligente monitora constantemente os níveis de estoque, garantindo a disponibilidade contínua de medicamentos essenciais.",
-        text02: "Além disso, a validação regular dos prazos de validade assegura que apenas produtos seguros e eficazes sejam utilizados, reduzindo os riscos associados a medicamentos vencidos e contribuindo para aprimorar a qualidade do atendimento médico."
+        title: 'Aumento da Segurança dos Pacientes',
+        text01: "O projeto Vita eleva a segurança do paciente ao validar continuamente os prazos de validade dos medicamentos, garantindo o uso apenas de produtos seguros. Essa abordagem avançada contribui para uma prática clínica mais segura e confiável.",
     },
     {
-        text01: "O impacto positivo do projeto Vita vai além da segurança do paciente, estendendo-se para a eficiência operacional dos hospitais. A implementação da plataforma de gestão de estoque inteligente resulta em uma administração mais ágil e precisa dos recursos hospitalares. A automação inteligente não apenas monitora os níveis de estoque, mas também emite alertas proativos para reposição, evitando interrupções no fornecimento.",
-        text02: "Essa abordagem inovadora contribui para a otimização dos processos internos, reduzindo desperdícios e permitindo que os profissionais de saúde foquem mais tempo no cuidado direto aos pacientes."
+        title: "Eficiência e Recursos Otimizados",
+        text01: "Ao implementar uma plataforma de gestão de estoque inteligente, o Vita monitora automaticamente os níveis de estoque, evitando interrupções no fornecimento e permitindo a alocação eficiente de recursos. Isso resulta em operações hospitalares mais eficientes e sustentáveis.",
     },
-    {
-        text01: "O projeto Vita não se limita a uma simples modernização da gestão de estoque; ele se posiciona como um instrumento vital na garantia da segurança do paciente e na otimização global dos recursos hospitalares. Ao integrar inteligência e automação, o sistema promove uma abordagem centrada no bem-estar dos indivíduos.",
-        text02: "Essa sinergia de tecnologia avançada visa criar um ambiente hospitalar mais seguro, eficiente e orientado para oferecer um atendimento médico de qualidade, redefinindo os padrões de excelência na prestação de cuidados de saúde."
+    {   title: "Modernização para uma Saúde Centrada no Paciente",
+        text01: "O Vita vai além da gestão de estoque, tornando-se vital para garantir a segurança do paciente. Integrando inteligência e automação, o projeto busca criar ambientes hospitalares centrados no bem-estar, liberando os profissionais para um cuidado mais personalizado e centrado no paciente. Essa abordagem promove uma saúde mais segura e eficiente.",
     }
 ]
 const BandButtons = () => {
@@ -43,8 +42,9 @@ const BandButtons = () => {
         <button
           onClick={() => handleBotaoClick(1)}
           style={{
-            backgroundColor: botaoAtivo === 1 ? "#3c55cb" : "white",
-            color: botaoAtivo === 1 ? "white" : "black",
+            backgroundColor: botaoAtivo === 1 ? "transparent" : "white",
+            color: botaoAtivo === 1 ? "white" : "#3c55cb",
+            border: botaoAtivo === 1 ? " 1px solid white" : "1px solid #3c55cb",
             transition: 'all 0.7s ease'
           }}
         >
@@ -53,8 +53,9 @@ const BandButtons = () => {
         <button
           onClick={() => handleBotaoClick(2)}
           style={{
-            backgroundColor: botaoAtivo === 2 ? "#3c55cb" : "white",
-            color: botaoAtivo === 2 ? "white" : "black",
+            backgroundColor: botaoAtivo === 2 ? "transparent" : "white",
+            color: botaoAtivo === 2 ? "white" : "#3c55cb",
+            border: botaoAtivo === 2 ? " 1px solid white" : "1px solid #3c55cb",
             transition: 'all 0.7s ease'
           }}
         >
@@ -63,8 +64,9 @@ const BandButtons = () => {
         <button
           onClick={() => handleBotaoClick(3)}
           style={{
-            backgroundColor: botaoAtivo === 3 ? "#3c55cb" : "white",
-            color: botaoAtivo === 3 ? "white" : "black",
+            backgroundColor: botaoAtivo === 3 ? "transparent" : "white",
+            color: botaoAtivo === 3 ? "white" : "#3c55cb",
+            border: botaoAtivo === 3 ? " 1px solid white" : "1px solid #3c55cb",
             transition: 'all 0.7s ease'
           }}
         >
@@ -72,8 +74,8 @@ const BandButtons = () => {
         </button>
       </div>
       <div className="info_Div">
+      <h4>{textoExibido.title}</h4>
       <p>{textoExibido.text01}</p>
-      <p>{textoExibido.text02}</p>
       </div>
     </>
   );
