@@ -9,7 +9,6 @@ function Band() {
         <img src={p1} alt="" />
       </section>
       <section className="textDiv">
-        <h3> Transformando a Saúde com Inovação Inteligente e Eficiência Hospitalar</h3>
         <BandButtons/>
       </section>
     </BandDiv>

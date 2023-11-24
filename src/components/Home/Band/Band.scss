@@ -7,17 +7,6 @@
     text-align: start;
     justify-content: space-around;
     height: 100%;
-
-    h3 {
-      font-size: 28px;
-      width: 100%;
-      display: none;
-      @media (max-width: 1200px) {
-        font-size: 28px;
-        width: 100%;
-        text-align: center;
-      }
-    }
     .buttonDiv {
       padding: 10px 6px;
       border-radius: 0.2rem;
@@ -40,18 +29,17 @@
       flex-direction: column;
       justify-content: space-around;
       transition: opacity 0.15s linear;
-      margin-top: 1.5rem;
       height: 250px;
 
       h4{
-        font-size: 28px;
-        margin: -0.4rem 0;
+        font-size: 35px;
+        margin: -0.2rem 0;
       }
       p {
         font-weight: 700;
         color: white;
         transition: all 2s ease;
-        font-size: 15px;
+        font-size: 20px;
       }
     }
   }
@@ -80,11 +68,11 @@
 @media (max-width: 1200px) {
 .Band {
   flex-direction: column;
-  padding: 5rem 0;
+  height: 700px;
   .textDiv {
     width: 100%;
     align-items: center;
-    gap: 1rem;
+    margin-top: -5rem;
     .buttonDiv {
       flex-direction: column;
       width: 50%;
@@ -92,9 +80,11 @@
     }
     .info_Div{
       gap: 1rem;
-        width: 70%;
+        width: 90%;
         text-align: center;
-        margin-top: 3rem;
+        h4{
+          margin-top: 2rem;
+        }
     }
   }
 }}
@@ -108,6 +98,11 @@
         .buttonDiv {
           flex-direction: row;
           gap: 0;
+        }
+        .info_Div{
+          h4{
+            margin-top: 1rem;
+          }
         }
       }
 }}
