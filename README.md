@@ -1,3 +1,6 @@
+<p align="center">
+<img src="./public/LogoPage.png" alt="Logo Vita" width=100>
+</p>
 # 💙 VITA: Sistema Inteligente de Gestão de Estoque Hospitalar
 O Projeto VITA busca implementar um sistema de gestão de estoque inteligente em hospitais, garantindo disponibilidade e prevenindo desperdícios. Com funcionalidades como controle em tempo real e rastreamento por código de barras, o projeto visa melhorar eficiência operacional, oferecer controle rigoroso e facilitar a integração na rotina dos profissionais de saúde.
 
